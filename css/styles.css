@@ -10,12 +10,48 @@ margin: 0;
 ul{
 padding-left: 0;
 }
+.hide{
+display: none;
+visibility: hidden;
+}
+.container{
+min-width: 320px;
+padding: 0 16px;
+margin: 0 auto;
+/* width: 1158px;
+margin: 0 auto;
+padding: 0 15px; */
+}
+@media screen and (min-width:768px){
+.container{
+max-width: 768px;
+}}
 
+ @media screen and (min-width:1440px){
+.container{
+max-width: 1440px;
+}} 
 img{
 display: block;
+max-width: 100%;
+height: auto;
 }
+
 .icon {
     fill: var(--main-text-color);
+}
+/* header */
+.header{
+border-bottom: 1px solid #e7e9fc;
+box-shadow: 0px 1px 6px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 2px 1px 0px #2E2F4214;
+}
+.header .container{
+display: flex;
+align-items: center;
+}
+.nav{
+display: flex;
+align-items: center;
 }
 .logo{
 font-family: 'Raleway',sans-serif;
@@ -45,10 +81,6 @@ display: block;
 color: #404bbf;
 }
 
-.nav{
-display: flex;
-align-items: center;
-}
 
 .address-list{
 display: flex;
@@ -233,22 +265,11 @@ letter-spacing: 0.02em;
 max-width: 264px;
 }
 
-.header{
-border-bottom: 1px solid #e7e9fc;
-box-shadow: 0px 1px 6px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 2px 1px 0px #2E2F4214;
 
-}
 
-.header .container{
-display: flex;
-align-items: center;
-}
 
-.container{
-width: 1158px;
-margin: 0 auto;
-padding: 0 15px;
-}
+
+
 
 .header .logo{
 margin-right:  76px;
@@ -677,3 +698,4 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 margin: 0 auto;
 border-radius: 4px;
 }
+
