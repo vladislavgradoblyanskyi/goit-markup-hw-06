@@ -35,15 +35,42 @@
         </div>
         <div class="mobile-menu">
             <div class="container mobile-menu-container">
-                <button type="button" class="mobile-menu-close" onclick="closeMobile()">close</button>
-                <nav class="mobile-menu-nav">12</nav>
-                <address>321</address>
-                <ul>566</ul>
+                <button type="button" class="mobile-menu-close" onclick="closeMobile()">
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_357634_131)">
+                        <path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_357634_131">
+                          <rect width="8" height="8" fill="white"/>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-menu-items">
+                    <li><a href="./index.html" class="mobile-menu-item mobile-menu-studio">Studio</a></li>
+                    <li><a href="" class="mobile-menu-item">Portfolio   </a></li>
+                    <li><a href="" class="mobile-menu-item">Contacts    </a></li>
+                    </ul>
+                </nav>
+                <address class="mobile-menu-address">
+                    <ul class="mobile-menu-list">
+                        <li><a href="mailto:info@devstudio.com"  class="mobile-address-list-p mobile-menu-number">info@devstudio.com</a></li>
+                        <li><a href="tel:+110001111111"  class="mobile-address-list-p">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+                <ul class="mobile-menu-media">
+                    <li class="menu-media-item"><a href="https://www.instagram.com/" class="menu-media-item-link"><svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-instagram-2"></use></svg></a></li>
+                    <li class="menu-media-item"><a href="https://x.com/" class="menu-media-item-link"><svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-twitter"></use></svg></a></li>
+                    <li class="menu-media-item"><a href="https://www.facebook.com/" class="menu-media-item-link"><svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
+                    <li class="menu-media-item"><a href="https://www.linkedin.com/" class="menu-media-item-link"><svg class="icon" width="24" height="24"><use href="./images/icons.svg#icon-linkedin-1"></use></svg></a></li>
+                </ul>
             </div>
         </div>
     </header>
     <main>    
-        <section class="top hide">
+        <section class="top">
             <div class="container">
                 <h1 class="topic">Effective Solutions for Your Business</h1>
                 <button type="button" class="button" onclick="backdrop()">Order Service</button>
