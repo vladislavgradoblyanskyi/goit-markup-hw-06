@@ -396,7 +396,6 @@ border-top: none;
 
 .footer{
 padding: 100px 0;
-
 }
 
 .footer .logo{
@@ -479,7 +478,6 @@ color: #ffffff;
 .footer-form{
 display: flex;
 gap: 24px;
-
 }
 .form-section{
 margin-left: auto;
